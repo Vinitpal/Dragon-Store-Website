@@ -87,7 +87,9 @@ body {
 
 .navbar .right-nav {
   display: flex;
+  width: fit-content;
   align-items: center;
+  margin-right: 10px;
 }
 
 .navbar .username-wrapper {
@@ -96,33 +98,34 @@ body {
 
 .navbar .username-wrapper h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 
-.navbar .username-wrapper p {
+.navbar .log-out p {
+  width: 60px;
   margin: 0;
-  margin-top: -5px;
-  text-align: right;
   cursor: pointer;
+  font-size: 14px;
+  color: red;
 }
 
-.navbar .username-wrapper p:hover {
+.navbar .log-out p:hover {
   color: #272343;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
-.navbar .pfp img {
+/* .navbar .pfp img {
   width: 60px;
   height: 60px;
   margin-right: 10px;
   border-radius: 50%;
   cursor: pointer;
-}
+} */
 
 .navbar .cart {
   width: 40px;
   height: 40px;
-  margin-right: 1em;
+  margin-right: 1.5em;
   border-radius: 50%;
   display: flex;
   align-items: center;
