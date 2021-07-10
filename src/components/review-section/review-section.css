@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.review-wrapper {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.mountain-img {
+  width: 50%;
+}
+
+.mountain-img img {
+  width: 100%;
+  height: 550px;
+}
+
+.design-border {
+  position: absolute;
+  margin-top: 20px;
+  width: 88%;
+  height: 500px;
+  border: 6px solid orange;
+  z-index: 1;
+}
+
+.review-text-wrapper {
+  width: 45%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+
+.review-text {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  z-index: 2;
+}
+
+.review-text h3 {
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  color: cyan;
+  font-size: 25px;
+  font-style: italic;
+  border-bottom: 1px solid orange;
+}
+
+.review-text h1 {
+  margin: 0;
+  color: white;
+  font-size: 54px;
+}
+
+.review-text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.review-btn {
+  margin-top: 16px;
+  padding: 8px 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: orange;
+  color: #272343;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  z-index: 13;
+}
+
+.review-btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid orange;
+}

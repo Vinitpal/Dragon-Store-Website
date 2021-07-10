@@ -1,0 +1,37 @@
+.banner-section {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
+
+.banner-section .banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-section .banner-wrapper h1 {
+  font-size: 28px;
+  margin: 0;
+  color: teal;
+}
+
+.banner-section .banner-wrapper h3 {
+  font-size: 24px;
+  margin: 0;
+  color: orange;
+}
+
+.banner-section .banner-wrapper p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.banner-section .boots {
+  width: 200px;
+  height: 200px;
+}
